@@ -9,3 +9,4 @@
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/refint/eCommerce.Core.dll
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.pdb
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/ref/eCommerce.Core.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.sourcelink.json

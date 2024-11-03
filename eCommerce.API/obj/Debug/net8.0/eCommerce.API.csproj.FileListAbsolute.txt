@@ -145,3 +145,4 @@
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/obj/Debug/net8.0/eCommerce.API.pdb
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/obj/Debug/net8.0/eCommerce.API.genruntimeconfig.cache
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/obj/Debug/net8.0/ref/eCommerce.API.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/obj/Debug/net8.0/eCommerce.API.sourcelink.json

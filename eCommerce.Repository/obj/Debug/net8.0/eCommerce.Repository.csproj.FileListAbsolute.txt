@@ -13,3 +13,4 @@
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/refint/eCommerce.Repository.dll
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerce.Repository.pdb
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/ref/eCommerce.Repository.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerce.Repository.sourcelink.json
