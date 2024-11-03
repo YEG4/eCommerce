@@ -1,0 +1,15 @@
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/bin/Debug/net8.0/eCommerce.Repository.deps.json
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/bin/Debug/net8.0/eCommerce.Repository.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/bin/Debug/net8.0/eCommerce.Repository.pdb
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/bin/Debug/net8.0/eCommerce.Core.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/bin/Debug/net8.0/eCommerce.Core.pdb
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerce.Repository.csproj.AssemblyReference.cache
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerce.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerce.Repository.AssemblyInfoInputs.cache
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerce.Repository.AssemblyInfo.cs
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerce.Repository.csproj.CoreCompileInputs.cache
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerc.6A978EFD.Up2Date
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerce.Repository.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/refint/eCommerce.Repository.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/eCommerce.Repository.pdb
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Repository/obj/Debug/net8.0/ref/eCommerce.Repository.dll

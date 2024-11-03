@@ -1,0 +1,11 @@
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/bin/Debug/net8.0/eCommerce.Core.deps.json
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/bin/Debug/net8.0/eCommerce.Core.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/bin/Debug/net8.0/eCommerce.Core.pdb
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.AssemblyInfoInputs.cache
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.AssemblyInfo.cs
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.csproj.CoreCompileInputs.cache
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/refint/eCommerce.Core.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.pdb
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/ref/eCommerce.Core.dll
