@@ -146,3 +146,6 @@
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/obj/Debug/net8.0/eCommerce.API.genruntimeconfig.cache
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/obj/Debug/net8.0/ref/eCommerce.API.dll
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/obj/Debug/net8.0/eCommerce.API.sourcelink.json
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/bin/Debug/net8.0/AutoMapper.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/bin/Debug/net8.0/eCommerce.API.staticwebassets.runtime.json

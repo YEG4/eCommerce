@@ -1,5 +1,4 @@
-using eCommerce.Core.Repositories;
-using eCommerce.Repository;
+using eCommerce.API.Extensions;
 using eCommerce.Repository.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<StoreContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaulConnectionString")));
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddApplicationServices();
 #endregion
 var app = builder.Build();
 
@@ -41,7 +40,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 
 app.MapControllers();
