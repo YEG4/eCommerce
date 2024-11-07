@@ -34,14 +34,17 @@ namespace eCommerce.API.Controllers
             var spec = new ProductWithBrandAndTypeSpecifications(specParams);
             var products = await _productRepo.GetAllWithSpecificationsAsync(spec);
             var productsMapped = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products);
-            return Ok(productsMapped);
+            var countSpec = new ProductWithFiltrationForCountAsync(specParams);
+            var count = await _productRepo.GetCountWithSpecification(countSpec);
+            return Ok(new Pagination<ProductToReturnDTO>(specParams.PageIndex, specParams.PageSize, count, productsMapped));
         }
 
         [HttpGet]
         [Route("{id}")]
         public async Task<ActionResult<ProductToReturnDTO>> GetById(int id)
         {
-            var product = await _productRepo.GetByIdAsync(id);
+            var spec = new ProductWithBrandAndTypeSpecifications(id);
+            var product = await _productRepo.GetByIdWithSpecificationsAsync(spec);
             var productsMapped = _mapper.Map<Product, ProductToReturnDTO>(product);
             return Ok(productsMapped);
         }

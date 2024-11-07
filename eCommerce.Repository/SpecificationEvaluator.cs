@@ -14,13 +14,13 @@ namespace eCommerce.Repository
 
             if (specifications.Criteria is not null)
             {
-                query.Where(specifications.Criteria);
+                query = query.Where(specifications.Criteria);
             }
 
             if (specifications.OrderBy is not null)
-                query.OrderBy(specifications.OrderBy);
+                query = query.OrderBy(specifications.OrderBy);
             if (specifications.OrderByDesc is not null)
-                query.OrderByDescending(specifications.OrderByDesc);
+                query = query.OrderByDescending(specifications.OrderByDesc);
 
             /* Apply Pagniation after orderby */
             if (specifications.isPagniationEnabled)
