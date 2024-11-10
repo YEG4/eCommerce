@@ -1,17 +1,22 @@
 using eCommerce.API.DTOs;
 using eCommerce.API.Errors;
 using eCommerce.Core.Entities.Identity;
+using eCommerce.Core.JsonObjects;
+using eCommerce.Core.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-
 namespace eCommerce.API.Controllers
 {
     public class UsersController : APIBaseController
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
-        public UsersController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        public JwtOptions jwtOptions { get; }
+        private readonly ITokenServices tokenServices;
+        public UsersController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, JwtOptions jwtOptions, ITokenServices tokenServices)
         {
+            this.tokenServices = tokenServices;
+            this.jwtOptions = jwtOptions;
             _signInManager = signInManager;
             _userManager = userManager;
 
@@ -29,11 +34,12 @@ namespace eCommerce.API.Controllers
             };
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded) return BadRequest(new ApiErrorResponse(400));
+
             return Ok(new UserDTO
             {
                 Email = model.Email,
                 DisplayName = model.DisplayName,
-                Token = "DADSADDAS"
+                Token = await tokenServices.GetAccessToken(user)
             });
         }
 
@@ -48,7 +54,7 @@ namespace eCommerce.API.Controllers
             {
                 Email = model.Email,
                 DisplayName = user.DisplayName,
-                Token = "DADSADDAS"
+                Token = await tokenServices.GetAccessToken(user)
             });
 
         }

@@ -154,3 +154,6 @@
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/bin/Debug/net8.0/eCommerce.Service.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.API/bin/Debug/net8.0/eCommerce.Service.pdb

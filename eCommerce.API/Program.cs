@@ -1,10 +1,16 @@
+using System.Text;
 using eCommerce.API.Extensions;
 using eCommerce.Core.Entities.Identity;
+using eCommerce.Core.JsonObjects;
+using eCommerce.Core.Services;
 using eCommerce.Repository.Data;
 using eCommerce.Repository.Identity;
 using eCommerce.Repository.Identity.DataSeed;
+using eCommerce.Service;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +25,23 @@ builder.Services.AddDbContext<AppIdentityDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityDbConnection"));
 });
-
+var jwtOptions = builder.Configuration.GetSection("JWT").Get<JwtOptions>();
+builder.Services.AddSingleton(jwtOptions);
+builder.Services.AddAuthentication()
+                .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+                {
+                    options.SaveToken = true;
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidIssuer = jwtOptions.Issuer,
+                        ValidateAudience = true,
+                        ValidAudience = jwtOptions.Audience,
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SigningKey))
+                    };
+                });
+builder.Services.AddScoped<ITokenServices, TokenService>();
 builder.Services.AddApplicationServices();
 builder.Services.AddIdentityServices();
 

@@ -4,14 +4,14 @@
     "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/eCommerce.Service.csproj": {}
   },
   "projects": {
-    "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/eCommerce.Service.csproj": {
+    "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/eCommerce.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/eCommerce.Service.csproj",
-        "projectName": "eCommerce.Service",
-        "projectPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/eCommerce.Service.csproj",
+        "projectUniqueName": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/eCommerce.Core.csproj",
+        "projectName": "eCommerce.Core",
+        "projectPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/eCommerce.Core.csproj",
         "packagesPath": "/home/y3ga/.nuget/packages/",
-        "outputPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/",
+        "outputPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/y3ga/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,80 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/y3ga/.dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/eCommerce.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/eCommerce.Service.csproj",
+        "projectName": "eCommerce.Service",
+        "projectPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/eCommerce.Service.csproj",
+        "packagesPath": "/home/y3ga/.nuget/packages/",
+        "outputPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/y3ga/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/eCommerce.Core.csproj": {
+                "projectPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/eCommerce.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

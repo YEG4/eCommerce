@@ -1,0 +1,16 @@
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/bin/Debug/net8.0/eCommerce.Service.deps.json
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/bin/Debug/net8.0/eCommerce.Service.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/bin/Debug/net8.0/eCommerce.Service.pdb
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/bin/Debug/net8.0/eCommerce.Core.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/bin/Debug/net8.0/eCommerce.Core.pdb
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/eCommerce.Service.csproj.AssemblyReference.cache
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/eCommerce.Service.GeneratedMSBuildEditorConfig.editorconfig
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/eCommerce.Service.AssemblyInfoInputs.cache
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/eCommerce.Service.AssemblyInfo.cs
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/eCommerce.Service.csproj.CoreCompileInputs.cache
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/eCommerce.Service.sourcelink.json
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/eCommerc.CDDDE16E.Up2Date
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/eCommerce.Service.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/refint/eCommerce.Service.dll
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/eCommerce.Service.pdb
+/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/Debug/net8.0/ref/eCommerce.Service.dll
