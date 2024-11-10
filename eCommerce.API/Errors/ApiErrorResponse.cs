@@ -22,6 +22,8 @@ namespace eCommerce.API.Errors
             return statusCode switch
             {
                 400 => "Bad Request",
+                401 => "User credentials are wrong",
+                403 => "Not Authorized",
                 404 => "Page Not Found",
                 500 => "Internal Server Error",
                 _ => "Error"
