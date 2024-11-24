@@ -411,22 +411,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.1.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.1.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.1.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.1.0"
           }
         }
       },
@@ -1029,7 +1029,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.10"
         },
         "runtime": {
-          "eCommerce.Core.dll": {}
+          "eCommerce.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "eCommerce.Repository/1.0.0": {
@@ -1038,7 +1041,10 @@
           "eCommerce.Core": "1.0.0"
         },
         "runtime": {
-          "eCommerce.Repository.dll": {}
+          "eCommerce.Repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "eCommerce.Service/1.0.0": {
@@ -1047,7 +1053,10 @@
           "eCommerce.Core": "1.0.0"
         },
         "runtime": {
-          "eCommerce.Service.dll": {}
+          "eCommerce.Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

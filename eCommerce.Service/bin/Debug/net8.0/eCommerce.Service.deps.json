@@ -281,7 +281,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.10"
         },
         "runtime": {
-          "eCommerce.Core.dll": {}
+          "eCommerce.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

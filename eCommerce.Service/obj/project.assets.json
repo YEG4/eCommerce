@@ -1141,32 +1141,39 @@
     ]
   },
   "packageFolders": {
-    "/home/y3ga/.nuget/packages/": {}
+    "C:\\Users\\Y3GA\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/eCommerce.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Y3GA\\source\\repos\\eCommerce\\eCommerce.Service\\eCommerce.Service.csproj",
       "projectName": "eCommerce.Service",
-      "projectPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/eCommerce.Service.csproj",
-      "packagesPath": "/home/y3ga/.nuget/packages/",
-      "outputPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Service/obj/",
+      "projectPath": "C:\\Users\\Y3GA\\source\\repos\\eCommerce\\eCommerce.Service\\eCommerce.Service.csproj",
+      "packagesPath": "C:\\Users\\Y3GA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Y3GA\\source\\repos\\eCommerce\\eCommerce.Service\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/y3ga/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Y3GA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/eCommerce.Core.csproj": {
-              "projectPath": "/home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/eCommerce.Core.csproj"
+            "C:\\Users\\Y3GA\\source\\repos\\eCommerce\\eCommerce.Core\\eCommerce.Core.csproj": {
+              "projectPath": "C:\\Users\\Y3GA\\source\\repos\\eCommerce\\eCommerce.Core\\eCommerce.Core.csproj"
             }
           }
         }
@@ -1179,8 +1186,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1207,7 +1215,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/y3ga/.dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

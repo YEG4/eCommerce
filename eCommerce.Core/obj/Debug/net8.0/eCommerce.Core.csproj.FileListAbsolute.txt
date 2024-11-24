@@ -11,3 +11,16 @@
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/ref/eCommerce.Core.dll
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.sourcelink.json
 /home/y3ga/Documents/data/CPlus_Vids/WEB_DEVELOPMENT/Route/eCommerce-local/eCommerce.Core/obj/Debug/net8.0/eCommerce.Core.csproj.AssemblyReference.cache
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\bin\Debug\net8.0\eCommerce.Core.deps.json
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\bin\Debug\net8.0\eCommerce.Core.dll
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\bin\Debug\net8.0\eCommerce.Core.pdb
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.csproj.AssemblyReference.cache
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.AssemblyInfoInputs.cache
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.AssemblyInfo.cs
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.csproj.CoreCompileInputs.cache
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.sourcelink.json
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.dll
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\refint\eCommerce.Core.dll
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.pdb
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.Core\obj\Debug\net8.0\ref\eCommerce.Core.dll

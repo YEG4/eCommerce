@@ -31,7 +31,7 @@ namespace eCommerce.API.Controllers
         [HttpGet]
         /* IReadOnlyList is preferred to be used here because i'm only retrieving data from database and returning it and not doing any iteration over the list.
         If i want to iterate over the list, then IEnumerable<> is better. */
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult<IReadOnlyList<ProductToReturnDTO>>> GetAll([FromQuery] ProductSpecParams specParams)
         {
             var spec = new ProductWithBrandAndTypeSpecifications(specParams);
