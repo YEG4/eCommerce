@@ -47,6 +47,7 @@ namespace eCommerce.API.Controllers
         public async Task<ActionResult<UserDTO>> Login(LoginDTO model)
         {
             var user = await _userManager.FindByEmailAsync(model.Email);
+            _userManager.FindByEmailAsync()
             if (user is null) return Unauthorized(new ApiErrorResponse(401));
             var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
             if (!result.Succeeded) return Unauthorized(new ApiErrorResponse(401));
