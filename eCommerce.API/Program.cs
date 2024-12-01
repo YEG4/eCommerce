@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,6 +45,12 @@ builder.Services.AddAuthentication()
 builder.Services.AddScoped<ITokenServices, TokenService>();
 builder.Services.AddApplicationServices();
 builder.Services.AddIdentityServices();
+builder.Services.AddSingleton<IConnectionMultiplexer>(options =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("RedisConnection");
+
+    return ConnectionMultiplexer.Connect(connectionString);
+});
 
 #endregion
 var app = builder.Build();

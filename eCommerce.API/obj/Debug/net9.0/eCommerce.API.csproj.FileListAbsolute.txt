@@ -151,3 +151,7 @@ C:\Users\Y3GA\source\repos\eCommerce\eCommerce.API\obj\Debug\net9.0\refint\eComm
 C:\Users\Y3GA\source\repos\eCommerce\eCommerce.API\obj\Debug\net9.0\eCommerce.API.pdb
 C:\Users\Y3GA\source\repos\eCommerce\eCommerce.API\obj\Debug\net9.0\eCommerce.API.genruntimeconfig.cache
 C:\Users\Y3GA\source\repos\eCommerce\eCommerce.API\obj\Debug\net9.0\ref\eCommerce.API.dll
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.API\bin\Debug\net9.0\NetTopologySuite.dll
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.API\bin\Debug\net9.0\NRedisStack.dll
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.API\bin\Debug\net9.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Y3GA\source\repos\eCommerce\eCommerce.API\bin\Debug\net9.0\StackExchange.Redis.dll

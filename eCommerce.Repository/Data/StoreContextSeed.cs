@@ -1,5 +1,6 @@
 using System.Text.Json;
 using eCommerce.Core.Entities;
+using eCommerce.Core.Entities.Order_Aggregation;
 
 namespace eCommerce.Repository.Data
 {
@@ -45,6 +46,20 @@ namespace eCommerce.Repository.Data
                     foreach (var product in products)
                     {
                         await dbContext.Set<Product>().AddAsync(product);
+                    }
+                    await dbContext.SaveChangesAsync();
+                }
+            }
+            /* Check first if Database has any records, if not populate Table with initial values. */
+            if (!dbContext.DeliveryMethods.Any())
+            {
+                var deliveryMethodData = File.ReadAllText("../eCommerce.Repository/Data/DataSeed/delivery.json");
+                var deliveryMethods = JsonSerializer.Deserialize<List<DeliveryMethod>>(deliveryMethodData);
+                if (deliveryMethods?.Count > 0)
+                {
+                    foreach (var deliveryMethod in deliveryMethods)
+                    {
+                        await dbContext.Set<DeliveryMethod>().AddAsync(deliveryMethod);
                     }
                     await dbContext.SaveChangesAsync();
                 }

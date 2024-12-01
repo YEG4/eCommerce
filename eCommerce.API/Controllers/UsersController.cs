@@ -25,6 +25,8 @@ namespace eCommerce.API.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDTO>> Register(RegisterDTO model)
         {
+            if (await isDuplicate(model.Email)) return BadRequest(new ApiErrorResponse(400, "Email already exists."));
+
             var user = new AppUser
             {
                 Email = model.Email,
@@ -58,6 +60,13 @@ namespace eCommerce.API.Controllers
                 Token = await tokenServices.GetAccessToken(user)
             });
 
+        }
+
+        private async Task<bool> isDuplicate(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if(user is null) return false;
+            return true;
         }
     }
 }

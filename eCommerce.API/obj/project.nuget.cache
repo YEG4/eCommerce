@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MJrTS1mHgDQ=",
+  "dgSpecHash": "A1CJPn7Lz+I=",
   "success": true,
   "projectFilePath": "C:\\Users\\Y3GA\\source\\repos\\eCommerce\\eCommerce.API\\eCommerce.API.csproj",
   "expectedPackageFiles": [
@@ -55,6 +55,10 @@
     "C:\\Users\\Y3GA\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Y3GA\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Y3GA\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Y3GA\\.nuget\\packages\\nettopologysuite\\2.5.0\\nettopologysuite.2.5.0.nupkg.sha512",
+    "C:\\Users\\Y3GA\\.nuget\\packages\\nredisstack\\0.13.1\\nredisstack.0.13.1.nupkg.sha512",
+    "C:\\Users\\Y3GA\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Y3GA\\.nuget\\packages\\stackexchange.redis\\2.8.16\\stackexchange.redis.2.8.16.nupkg.sha512",
     "C:\\Users\\Y3GA\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Y3GA\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Y3GA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
