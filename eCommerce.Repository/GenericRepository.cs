@@ -43,5 +43,15 @@ namespace eCommerce.Repository
         {
             return await ApplySpecification(spec).CountAsync();
         }
+
+        public async Task AddAsync(T item)
+        => await _dbContext.Set<T>().AddAsync(item);
+
+
+        public void Delete(T item)
+        => _dbContext.Set<T>().Remove(item);
+
+        public void Update(T item)
+        => _dbContext.Set<T>().Update(item);
     }
 }

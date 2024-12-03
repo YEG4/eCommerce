@@ -10,7 +10,8 @@ namespace eCommerce.API.Helpers
 {
     public class PictureUrlResolver : IValueResolver<Product, ProductToReturnDTO, string>
     {
-        public IConfiguration _configuration { get; }
+        private readonly IConfiguration _configuration;
+
         public PictureUrlResolver(IConfiguration configuration)
         {
             _configuration = configuration;

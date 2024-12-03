@@ -27,8 +27,9 @@ builder.Services.AddDbContext<AppIdentityDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityDbConnection"));
 });
 var jwtOptions = builder.Configuration.GetSection("JWT").Get<JwtOptions>();
+builder.Services.AddIdentityServices();
 builder.Services.AddSingleton(jwtOptions);
-builder.Services.AddAuthentication()
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
                 {
                     options.SaveToken = true;
@@ -44,7 +45,7 @@ builder.Services.AddAuthentication()
                 });
 builder.Services.AddScoped<ITokenServices, TokenService>();
 builder.Services.AddApplicationServices();
-builder.Services.AddIdentityServices();
+
 builder.Services.AddSingleton<IConnectionMultiplexer>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("RedisConnection");
