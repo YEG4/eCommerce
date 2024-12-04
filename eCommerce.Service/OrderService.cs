@@ -17,11 +17,13 @@ namespace eCommerce.Service
     {
         private readonly IBasketRepository _basketRepo;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IPaymentService _paymentService;
 
-        public OrderService(IBasketRepository basketRepo, IUnitOfWork unitOfWork)
+        public OrderService(IBasketRepository basketRepo, IUnitOfWork unitOfWork,IPaymentService paymentService)
         {
             this._basketRepo = basketRepo;
             this._unitOfWork = unitOfWork;
+            this._paymentService = paymentService;
         }
         public async Task<Order?> CreateOrderAsync(string email, string basketId, int methodDeliveryId, Address shippingAddress)
         {
@@ -42,8 +44,15 @@ namespace eCommerce.Service
             // Get DeliveryMethod Cost 
             var deliveryMethod = await _unitOfWork.Repository<DeliveryMethod>().GetByIdAsync(methodDeliveryId);
 
+            var orderSpecification = new OrderWithPaymentIntentIdSpecifications(basket.PaymentIntentId);
+            var exOrder = await _unitOfWork.Repository<Order>().GetEntityWithSpecificationAsync(orderSpecification);
+            if(exOrder is not null)
+            {
+                _unitOfWork.Repository<Order>().Delete(exOrder);
+                _pay
+            }
             // Create Order 
-            var order = new Order(email, shippingAddress, deliveryMethod, orderItems, subTotal);
+            var order = new Order(email, shippingAddress, deliveryMethod, orderItems, subTotal, basket.PaymentIntentId);
 
             // Save to Database
             await _unitOfWork.Repository<Order>().AddAsync(order);
@@ -60,7 +69,7 @@ namespace eCommerce.Service
         public async Task<Order?> GetOrderByIdForSpecificUser(string email, int orderId)
         {
             var orderSpecifications = new OrderSpecification(email, orderId);
-            var order = await _unitOfWork.Repository<Order>().GetByIdWithSpecificationsAsync(orderSpecifications);
+            var order = await _unitOfWork.Repository<Order>().GetEntityWithSpecificationAsync(orderSpecifications);
             return order;
         }
 

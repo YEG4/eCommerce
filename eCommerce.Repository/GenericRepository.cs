@@ -29,7 +29,7 @@ namespace eCommerce.Repository
             return await ApplySpecification(spec).ToListAsync();
         }
 
-        public async Task<T> GetByIdWithSpecificationsAsync(ISpecifications<T> spec)
+        public async Task<T> GetEntityWithSpecificationAsync(ISpecifications<T> spec)
         {
             return await ApplySpecification(spec).FirstOrDefaultAsync();
         }

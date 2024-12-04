@@ -47,7 +47,7 @@ namespace eCommerce.API.Controllers
         public async Task<ActionResult<ProductToReturnDTO>> GetById(int id)
         {
             var spec = new ProductWithBrandAndTypeSpecifications(id);
-            var product = await _productRepo.GetByIdWithSpecificationsAsync(spec);
+            var product = await _productRepo.GetEntityWithSpecificationAsync(spec);
             var productsMapped = _mapper.Map<Product, ProductToReturnDTO>(product);
             return Ok(productsMapped);
         }

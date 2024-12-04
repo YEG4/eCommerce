@@ -30,7 +30,9 @@ namespace eCommerce.API.Helpers
                 .ForMember(d=>d.Name, O=> O.MapFrom(S=> S.Product.Name))
                 .ForMember(d=>d.PrictureUrl,O=>O.MapFrom(S=>S.Product.PrictureUrl))
                 .ForMember(d=>d.PrictureUrl, O=> O.MapFrom<OrderItemPictureUrlResolver>());
-            
+
+            CreateMap<BasketItem, BasketItemDTO>();
+            CreateMap<CustomerBasket, CustomerBasketDTO>();
         }
     }
 }

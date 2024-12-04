@@ -10,7 +10,7 @@ namespace eCommerce.Core.Repositories
         public Task<T> GetByIdAsync(int id);
 
         public Task<IReadOnlyList<T>> GetAllWithSpecificationsAsync(ISpecifications<T> spec);
-        public Task<T> GetByIdWithSpecificationsAsync(ISpecifications<T> spec);
+        public Task<T> GetEntityWithSpecificationAsync(ISpecifications<T> spec);
         public Task<int> GetCountWithSpecification(ISpecifications<T> spec);
 
         public Task AddAsync(T item);

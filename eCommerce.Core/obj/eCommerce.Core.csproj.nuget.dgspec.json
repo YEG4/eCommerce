@@ -57,6 +57,10 @@
             "NRedisStack": {
               "target": "Package",
               "version": "[0.13.1, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[47.1.0, )"
             }
           },
           "imports": [

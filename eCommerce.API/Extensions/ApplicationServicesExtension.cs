@@ -23,6 +23,7 @@ namespace eCommerce.API.Extensions
             services.AddAutoMapper(typeof(MappingProfiles));
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IPaymentService, PaymentService>();
             return services;
         }
     }

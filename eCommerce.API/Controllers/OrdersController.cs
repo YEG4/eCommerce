@@ -64,5 +64,15 @@ namespace eCommerce.API.Controllers
             var orderMapped = _mapper.Map<Order, OrderToReturnDTO>(order);
             return Ok(orderMapped);
         }
+
+        [HttpGet("deliverymethods")]
+        [ProducesResponseType(typeof(IReadOnlyList<DeliveryMethod>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiErrorResponse), StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<IReadOnlyList<DeliveryMethod>>> GetDeliveryMethods()
+        {
+            var deliveryMethods = await _unitOfWork.Repository<DeliveryMethod>().GetAllAsync();
+            if (deliveryMethods is null) return NotFound(new ApiErrorResponse(404, "There are no delivery methods."));
+            return Ok(deliveryMethods);
+        }
     }
 }
