@@ -27,7 +27,7 @@ namespace eCommerce.API.Controllers
             _productRepo = productRepo;
             _brandRepo = brandRepo;
         }
-
+        [Cached(300)]
         [HttpGet]
         /* IReadOnlyList is preferred to be used here because i'm only retrieving data from database and returning it and not doing any iteration over the list.
         If i want to iterate over the list, then IEnumerable<> is better. */

@@ -49,7 +49,7 @@ namespace eCommerce.Service
             if(exOrder is not null)
             {
                 _unitOfWork.Repository<Order>().Delete(exOrder);
-                _pay
+                await _paymentService.CreateOrUpdatePaymentIntent(basketId);
             }
             // Create Order 
             var order = new Order(email, shippingAddress, deliveryMethod, orderItems, subTotal, basket.PaymentIntentId);

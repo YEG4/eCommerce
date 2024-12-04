@@ -24,6 +24,7 @@ namespace eCommerce.API.Extensions
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IPaymentService, PaymentService>();
+            services.AddSingleton<ICacheService, CacheService>();
             return services;
         }
     }
